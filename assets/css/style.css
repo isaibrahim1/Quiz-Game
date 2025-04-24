@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    box-sizing: border-box;;
+}
+
+body {
+    font-family:'Courier New', Courier, monospace;
+}
+
+.quiz-game {
+    margin: 20px auto;
+    width: 800px;
+    background-color: #f8f8f8;
+    padding: 15px;
+}
+
+.quiz-game .quiz-info {
+    display: flex;
+    background-color: #fff;
+    padding: 20px;
+    
+}
+
+.quiz-game .quiz-info .category {
+    flex: 1;
+}
+.quiz-game .quiz-info .count {
+    flex: 1;
+    text-align: right;
+}
+
+.quiz-game .quiz-area {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 15px;
+}
+.quiz-game .answers-area {
+    background-color: #fff;
+    padding: 0 20px 20px;;
+}

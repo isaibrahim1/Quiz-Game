@@ -1,0 +1,65 @@
+[
+    {
+      "question": "Which of the following is NOT a primitive data type in JavaScript?",
+      "options_wrong_1": "string",
+      "options_wrong_2": "number",
+      "options_wrong_3": "boolean",
+      "answer": "object"
+    },
+    {
+      "question": "What will `console.log(typeof NaN)` output?",
+      "options_wrong_1": "NaN",
+      "options_wrong_2": "undefined",
+      "options_wrong_3": "string",
+      "answer": "number"
+    },
+    {
+      "question": "Which keyword is used to declare a variable with block scope?",
+      "options_wrong_1": "var",
+      "options_wrong_2": "const",
+      "options_wrong_3": "scope",
+      "answer": "let"
+    },
+    {
+      "question": "What is the output of `1 + '1'` in JavaScript?",
+      "options_wrong_1": "2",
+      "options_wrong_2": "error",
+      "options_wrong_3": "NaN",
+      "answer": "11"
+    },
+    {
+      "question": "Which array method adds new elements to the end of an array and returns the new length of the array?",
+      "options_wrong_1": "pop()",
+      "options_wrong_2": "shift()",
+      "options_wrong_3": "unshift()",
+      "answer": "push()"
+    },
+    {
+      "question": "What does the `this` keyword refer to in a globally scoped function in strict mode?",
+      "options_wrong_1": "the global object",
+      "options_wrong_2": "the function itself",
+      "options_wrong_3": "an error",
+      "answer": "undefined"
+    },
+    {
+      "question": "Which of the following is a valid way to define an arrow function?",
+      "options_wrong_1": "function => {}",
+      "options_wrong_2": "() -> {}",
+      "options_wrong_3": "const myFunction = function() {}",
+      "answer": "const myFunction = () => {}"
+    },
+    {
+      "question": "What will `console.log(null == undefined)` output?",
+      "options_wrong_1": "error",
+      "options_wrong_2": "NaN",
+      "options_wrong_3": "false",
+      "answer": "true"
+    },
+    {
+      "question": "Which method is used to remove the last element from an array and returns that element?",
+      "options_wrong_1": "slice()",
+      "options_wrong_2": "splice()",
+      "options_wrong_3": "shift()",
+      "answer": "pop()"
+    }
+  ]
