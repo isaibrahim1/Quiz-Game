@@ -1,7 +1,10 @@
 //Select elements
 let countSpan = document.querySelector(".count span");
 let bulletsSpanContainer = document.querySelector(".bullets.spans");
+let quizArea = document.querySelector(".quiz-area");
 
+//set options
+let currentIndex = 0;
 
 function getQuestions() {
     let myRequest = new XMLHttpRequest ();
@@ -14,6 +17,9 @@ function getQuestions() {
 
            //create bullets and questions count
            createBullets(questionsCount);
+
+           //add question 
+           addQuestionData(questionsObject[0], qCount);
         }
     };
     
@@ -37,4 +43,27 @@ function createBullets(num) {
         
         bulletsSpanContainer.appendChild(theBullet)
     };
+}
+
+
+function addQuestionData(obj, count) {
+    let questionTitle = document.createElement("h2");
+    let questionText = document.createTextNode(obj["title"]);
+    questionTitle.appendChild(questionText);
+
+    quizArea.appendChild(questionTitle);
+
+    for  (let i = 1; i <= 4; i++) {
+
+        let mainDiv = document.createElement("div");
+        mainDiv.className = "answer";
+
+        let radioInput = document.createElement("input");
+
+        radioInput.name = "question";
+        radioInput.type = "radio";
+        radioInput.id = `answer_${i}`;
+        radioInput.dataset.answer = obj[`answer_${i}`];
+
+    }
 }
