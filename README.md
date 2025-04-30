@@ -69,5 +69,3 @@
 ### 6.3. Media <a name="media"></a>
 ### 6.4. Acknowledgments <a name="acknowledgments"></a>
 
-## 7. The Quiz Arms Banner <a name="the-quiz-arms-banner"></a>
-> _(Insert your banner image here)_  
