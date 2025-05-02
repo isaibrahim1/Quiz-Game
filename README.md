@@ -50,6 +50,10 @@ These are the key goals and expectations of first-time users visiting the JavaSc
 
 ## 2. Design <a name="design"></a>
 ### 2.1. Colour Scheme <a name="colour-scheme"></a>
+I chose a simple and limited colour palette to avoid overwhelming users
+I have used #fff & #ffff as the primary and secondary colours used for background color.
+I have used #0075ff  submit button, spans and correct answer.
+
 ### 2.2. Typography <a name="typography"></a>
 ### 2.3. Imagery <a name="imagery"></a>
 ### 2.4. Wireframes <a name="wireframes"></a>
