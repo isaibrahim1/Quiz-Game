@@ -84,9 +84,51 @@ I have used #0075ff  submit button, spans and correct answer.
 
 ## 4. Deployment & Local Development <a name="deployment--local-development"></a>
 ### 4.1. Deployment <a name="deployment"></a>
+## Deploying with GitHub Pages
+
+**Prerequisites:**
+
+* A GitHub account (sign up if you don't have one).
+* A GitHub repository containing your quiz game project.
+
+**Steps:**
+
+1.  **Login to GitHub:** Go to [https://github.com/login](https://github.com/login) and enter your credentials.
+2.  **Navigate to your Repository:** Open the repository for your JavaScript Quiz Game (e.g., click on the project link).
+3.  **Access Settings:** Click on the **Settings** button located near the top of your repository page.
+4.  **Go to Pages:** In the left-hand navigation menu, scroll down and click on **Pages**.
+5.  **Select Deployment Source:**
+    * Under the "Build and deployment" section, find the **Source** dropdown.
+    * Select **main branch** from the dropdown menu.
+6.  **Save Changes:** Click the **Save** button.
+
+
 ### 4.2. Local Development <a name="local-development"></a>
-- **How to Fork** <a name="how-to-fork"></a>  
-- **How to Clone** <a name="how-to-clone"></a>  
+- **How to Fork** <a name="how-to-fork"></a>
+  **Steps:**
+
+1.  **Login to GitHub:** Go to [https://github.com/login](https://github.com/login) and enter your credentials.
+2.  **Navigate to the Repository:** Open the repository for the JavaScript Quiz Game (e.g., click on the project link).
+3.  **Click the Fork Button:** In the top right corner of the repository page, click the **Fork** button.
+
+
+- **How to Clone** <a name="how-to-clone"></a>
+  ## Cloning the Repository
+
+**Steps:**
+
+1.  **Login to GitHub:** Go to [https://github.com/login](https://github.com/login) and enter your credentials.
+2.  **Navigate to your Repository:** Open the repository for your JavaScript Quiz Game (e.g., click on the project link).
+3.  **Get the Repository Link:**
+    * Click the green **Code** button.
+    * Choose your preferred method (**HTTPS**, **SSH**, or **GitHub CLI**).
+    * Copy the displayed link.
+4.  **Open Terminal/Command Prompt:** Open the terminal or command prompt in your code editor or on your system.
+5.  **Navigate to Destination:** Use the `cd` command to go to the folder where you want to clone the project (e.g., `cd Documents/Projects`).
+6.  **Clone the Repository:**
+    * Type `git clone ` (make sure there's a space after `clone`).
+    * Paste the link you copied in step 3.
+    * Press **Enter**.
 
 ## 5. Testing <a name="testing"></a>
 ### 5.1. Solved Bugs <a name="solved-bugs"></a>
