@@ -137,6 +137,12 @@ I have used #0075ff  submit button, spans and correct answer.
 ## 6. Credits <a name="credits"></a>
 ### 6.1. Code Used <a name="code-used"></a>
 ### 6.2. Content <a name="content"></a>
+All questions and text for my site were from gemini.
+
 ### 6.3. Media <a name="media"></a>
 ### 6.4. Acknowledgments <a name="acknowledgments"></a>
+I would like to acknowledge the following people:
+Jubril - My Code Institute Mentor
+The Code Institute Slack channel Peer Code Review - Thank you to everyone who took the time to play the quiz and look over the code.
+
 
